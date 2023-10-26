@@ -1,3 +1,7 @@
+This is a fork of https://github.com/ksm2/isomorphic-streams
+
+---
+
 # isomorphic-streams
 
 [![Node.js CI](https://github.com/Swimburger/isomorphic-streams/actions/workflows/node.js.yml/badge.svg)](https://github.com/Swimburger/isomorphic-streams/actions/workflows/node.js.yml)

@@ -1,9 +1,9 @@
 # isomorphic-streams
 
-[![Node.js CI](https://github.com/ksm2/isomorphic-streams/actions/workflows/node.js.yml/badge.svg)](https://github.com/ksm2/isomorphic-streams/actions/workflows/node.js.yml)
-[![NPM version](https://img.shields.io/npm/v/isomorphic-streams)](https://www.npmjs.com/package/isomorphic-streams)
-[![license](https://img.shields.io/github/license/ksm2/isomorphic-streams)](https://opensource.org/licenses/MIT)
-[![TypeScript types](https://img.shields.io/npm/types/isomorphic-streams)](https://github.com/ksm2/isomorphic-streams/blob/main/index.d.ts)
+[![Node.js CI](https://github.com/Swimburger/isomorphic-streams/actions/workflows/node.js.yml/badge.svg)](https://github.com/Swimburger/isomorphic-streams/actions/workflows/node.js.yml)
+[![NPM versoin](https://img.shields.io/npm/v/%40swimburger/isomorphic-streams)](https://www.npmjs.com/package/@swimburger/isomorphic-streams)
+[![license](https://img.shields.io/github/license/Swimburger/isomorphic-streams)](https://opensource.org/licenses/MIT)
+[![TypeScript types](https://img.shields.io/npm/types/isomorphic-streams)](https://github.com/Swimburger/isomorphic-streams/blob/main/index.d.ts)
 
 > Isomorphic [WHATWG Streams API] package for browser and Node.js
 
@@ -69,6 +69,6 @@ This project is open to feedback and contributions, please open an issue.
 MIT © 2021 Konstantin Möllers, see [LICENSE].
 
 [whatwg streams api]: https://streams.spec.whatwg.org/
-[license]: https://github.com/ksm2/isomorphic-streams/blob/main/LICENSE
-[contributor covenant]: https://github.com/ksm2/isomorphic-streams/blob/main/CODE_OF_CONDUCT.md
-[examples]: https://github.com/ksm2/isomorphic-streams/tree/main/examples
+[license]: https://github.com/Swimburger/isomorphic-streams/blob/main/LICENSE
+[contributor covenant]: https://github.com/Swimburger/isomorphic-streams/blob/main/CODE_OF_CONDUCT.md
+[examples]: https://github.com/Swimburger/isomorphic-streams/tree/main/examples

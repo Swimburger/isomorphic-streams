@@ -26,6 +26,10 @@
     "url": "https://github.com/Swimburger/isomorphic-streams/issues"
   },
   "homepage": "https://github.com/Swimburger/isomorphic-streams",
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
   "keywords": [
     "streams",
     "web-streams",

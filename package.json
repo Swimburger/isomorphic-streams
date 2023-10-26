@@ -1,5 +1,5 @@
 {
-  "name": "isomorphic-streams",
+  "name": "@swimburger/isomorphic-streams",
   "version": "1.0.4",
   "description": "Isomorphic WHATWG Streams API package for browser and Node.js. Forked from https://github.com/ksm2/isomorphic-streams",
   "main": "./index.node.cjs",

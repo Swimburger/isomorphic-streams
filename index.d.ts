@@ -24,5 +24,5 @@ export {
   ReadableStreamDefaultReadDoneResult,
   ReadableStreamDefaultReadValueResult,
   QueuingStrategy,
-  QueuingStrategyInit
+  QueuingStrategyInit,
 } from "node:stream/web";

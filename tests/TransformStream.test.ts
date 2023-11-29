@@ -1,4 +1,4 @@
-import { ReadableStream, TransformStream } from "..";
+import { ReadableStream, TransformStream } from "../src/node";
 import { expectStreamOf } from "./tools";
 
 describe("TransformStream", () => {

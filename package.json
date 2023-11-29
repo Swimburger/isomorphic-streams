@@ -1,18 +1,39 @@
 {
   "name": "@swimburger/isomorphic-streams",
-  "version": "1.0.5",
-  "description": "Isomorphic WHATWG Streams API package for browser and Node.js. Forked from https://github.com/ksm2/isomorphic-streams",
-  "main": "./index.node.cjs",
-  "module": "./index.module.mjs",
-  "browser": "./index.browser.js",
-  "types": "./index.d.ts",
+  "version": "1.1.0",
+  "description": "Isomorphic WHATWG Streams API package for browser, Node.js, and other runtimes. Forked from https://github.com/ksm2/isomorphic-streams",
+  "type": "commonjs",
+  "main": "./dist/node.cjs",
+  "types": "./dist/node.d.ts",
+  "module": "./dist/default.mjs",
+  "browser": "./dist/default.mjs",
   "exports": {
-    "types": "./index.d.ts",
     "node": {
-      "import": "./index.node.mjs",
-      "require": "./index.node.cjs"
+      "import": {
+        "types": "./dist/node.d.mts",
+        "default": "./dist/node.mjs"
+      },
+      "require": {
+        "types": "./dist/node.d.cts",
+        "default": "./dist/node.cjs"
+      }
     },
-    "default": "./index.browser.js"
+    "browser": {
+      "types": "./dist/default.d.mts",
+      "default": "./dist/default.mjs"
+    },
+    "import": {
+      "types": "./dist/default.d.mts",
+      "default": "./dist/default.mjs"
+    },
+    "require": {
+      "types": "./dist/default.d.cts",
+      "default": "./dist/default.cjs"
+    },
+    "default": {
+      "types": "./dist/default.d.mts",
+      "default": "./dist/default.mjs"
+    }
   },
   "license": "MIT",
   "repository": {
@@ -35,27 +56,27 @@
     "web-streams",
     "whatwg"
   ],
-  "type": "module",
   "engines": {
     "node": ">= 16.5.0"
   },
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --no-cache",
-    "prettier": "prettier --check *.js *.ts README.md CODE_OF_CONDUCT.md",
-    "prettier:fix": "prettier --write *.js *.ts README.md CODE_OF_CONDUCT.md"
+    "lint": "publint",
+    "format": "prettier --write **/*",
+    "build": "unbuild"
   },
   "devDependencies": {
     "@types/jest": "^29.5.6",
     "jest": "^29.7.0",
     "prettier": "^3.0.3",
+    "publint": "^0.2.5",
     "ts-jest": "^29.1.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.2",
+    "unbuild": "^2.0.0"
   },
   "files": [
-    "index.d.ts",
-    "index.browser.js",
-    "index.node.cjs",
-    "index.node.mjs",
+    "src",
+    "dist",
     "LICENSE",
     "README.md"
   ]

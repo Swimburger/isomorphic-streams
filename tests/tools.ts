@@ -1,4 +1,4 @@
-import { ReadableStream } from "..";
+import { ReadableStream } from "../src/node";
 
 export async function expectStreamOf<T>(
   actual: ReadableStream<T>,

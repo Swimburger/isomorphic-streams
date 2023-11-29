@@ -1,4 +1,4 @@
-import { WritableStream, ReadableStream } from "..";
+import { WritableStream, ReadableStream } from "../src/node";
 
 describe("WritableStream", () => {
   it("should support piping to a writable stream", async () => {

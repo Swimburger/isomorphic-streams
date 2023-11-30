@@ -1,6 +1,6 @@
 {
   "name": "@swimburger/isomorphic-streams",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Isomorphic WHATWG Streams API package for browser, Node.js, and other runtimes. Forked from https://github.com/ksm2/isomorphic-streams",
   "type": "commonjs",
   "main": "./dist/node.cjs",
@@ -17,6 +17,10 @@
         "types": "./dist/node.d.cts",
         "default": "./dist/node.cjs"
       }
+    },
+    "workerd": {
+      "types": "./dist/default.d.mts",
+      "default": "./dist/default.mjs"
     },
     "browser": {
       "types": "./dist/default.d.mts",
